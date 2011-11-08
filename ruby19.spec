@@ -1,5 +1,5 @@
-%define rubyver		1.9.2
-%define rubyminorver	p290
+%define rubyver		1.9.3
+%define rubyminorver	p0
 
 Name:		ruby19
 Version:	%{rubyver}%{rubyminorver}
@@ -54,6 +54,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_prefix}/share/
 
 %changelog
+* Tue Nov 12 2011 Hirokazu Yoshida <y.hirokazu@gmailc.om> - 1.9.3p0
+- updated to 1.9.3p0
+
 * Fri Jul 22 2011 Sergio Rubio <rubiojr@frameos.org> - 1.9.2p290-1
 - ruby19.spec
 
